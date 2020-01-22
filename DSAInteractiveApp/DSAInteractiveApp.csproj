@@ -61,6 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Modeling\Calendar\AventurianDate.cs" />
+    <Compile Include="Modeling\Calendar\AventurianDateSpan.cs" />
+    <Compile Include="Modeling\CharacterSheet\Character.cs" />
+    <Compile Include="Modeling\CharacterSheet\CharacterSheet.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -117,6 +121,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.3</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="28.0.0.1" />
     <PackageReference Include="Xamarin.Android.Support.CustomTabs" Version="28.0.0.1" />

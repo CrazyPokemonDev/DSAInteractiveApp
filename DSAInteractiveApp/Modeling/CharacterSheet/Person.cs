@@ -14,7 +14,7 @@ using Newtonsoft.Json;
 
 namespace DSAInteractiveApp.Modeling.CharacterSheet
 {
-    public class Character
+    public class Person
     {
         public string Name { get; set; }
         public string Family { get; set; }
@@ -23,5 +23,17 @@ namespace DSAInteractiveApp.Modeling.CharacterSheet
         public AventurianDate CurrentDate { get; set; }
         [JsonIgnore]
         public int Age { get => (CurrentDate - Birthday).Years; }
+        public string Sex { get; set; }
+        public string Species { get; set; }
+        public double Size { get; set; }
+        public double Weight { get; set; }
+        public string HairColor { get; set; }
+        public string EyeColor { get; set; }
+        public string Culture { get; set; }
+        public string Profession { get; set; }
+        public string Title { get; set; }
+        public string SocialStatus { get; set; }
+        public string Characteristics { get; set; }
+        public string AdditionalInformation { get; set; }
     }
 }

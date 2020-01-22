@@ -63,7 +63,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Modeling\Calendar\AventurianDate.cs" />
     <Compile Include="Modeling\Calendar\AventurianDateSpan.cs" />
-    <Compile Include="Modeling\CharacterSheet\Character.cs" />
+    <Compile Include="Modeling\CharacterSheet\Person.cs" />
     <Compile Include="Modeling\CharacterSheet\CharacterSheet.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

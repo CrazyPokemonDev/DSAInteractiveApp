@@ -16,6 +16,6 @@ namespace DSAInteractiveApp.Modeling.CharacterSheet
     public class CharacterSheet
     {
         [JsonProperty(Required = Required.Always)]
-        public Character Character { get; set; } = new Character();
+        public Person Person { get; set; } = new Person();
     }
 }
